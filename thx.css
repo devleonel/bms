@@ -1,0 +1,29 @@
+/* THX */
+body > div{
+    text-align: center;
+    margin-top: 100px;
+}
+
+body > div > h1{
+    color: #0168FE;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+body > div > a{
+    background: #1DAC3E;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+
+body > div > a:hover{
+    background: #22252A;
+}
+
+body > div > h2{
+    margin-bottom: 50px;
+    margin-top: 15px;
+}

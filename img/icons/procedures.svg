@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44">
+	<title>image</title>
+	<defs>
+		<linearGradient id="g1" x1="31.5" y1="47.3" x2="3.9" y2="15.3" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#00d09c"/>
+			<stop offset="1" stop-color="#0169fe"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: url(#g1);stroke-linecap: round;stroke-linejoin: round;stroke-width: 3 } 
+	</style>
+	<path id="Layer" class="s0" d="m35.3 34.5l0.1 7.5m2.9-18.7c0.9 0 1.9 0.6 2.6 1.6c0.7 1.1 1.1 2.5 1.1 4c0 1.5-0.4 2.9-1.1 4c-0.7 1-1.7 1.6-2.6 1.6h-32.5c-1 0-2-0.6-2.7-1.6c-0.7-1.1-1.1-2.5-1.1-4c0-1.5 0.4-2.9 1.1-4c0.7-1 1.7-1.6 2.7-1.6h21zm1.6-13.7v7.5h-5v7.6h-5.1v-7.6h-5v-7.5h5v-7.6h5.1v7.6zm-23.6 13.7h-9.6c-0.6-0.1-1.2-0.5-1.6-1.2c-0.4-0.7-0.7-1.6-0.6-2.5v-0.7c-0.1-1 0.2-1.9 0.6-2.6c0.4-0.7 1-1.1 1.6-1.1l9.6 2.7c1.5 1 2 3.2 1.7 4.3c-0.4 1.1-1.6 1.1-1.7 1.1zm-7.7 11.2l0.1 7.5z" />
+</svg>
