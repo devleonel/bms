@@ -167,7 +167,7 @@ body > div.container-fluid > div > div:nth-child(2) > div > a{
     text-transform: uppercase;
 }
 
-#nav-right > div > form > button{
+#nav-right > div > form > a{
     float: right;
     margin-right: 0.85rem;
     background: #0D0F10;
@@ -180,7 +180,7 @@ body > div.container-fluid > div > div:nth-child(2) > div > a{
 }
 
 #nav-right{
-    background: linear-gradient(101.49deg, #00D09C 0%, #0169FE 41.01%);
+    background: linear-gradient(0deg, #0046AA 0%, #0169FE 51.01%);
     position: relative;
 }
 
@@ -986,7 +986,6 @@ body > div:nth-child(10) > div > div:nth-child(1) > p{
     font-weight: 300;
     font-size: 28px;
     color: #fff;
-    margin-right: 15px;
 }
 
 #carouselExampleFade{
@@ -1203,8 +1202,8 @@ body > footer > p{
         font-size: 48px;
     }
     body > div:nth-child(11) > div > div.col-lg-6.col-md-12.aos-init.aos-animate{
-        padding-right: 100px;
-        padding-left: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     body > div:nth-child(11) > div > div.col-6.col-md-12.aos-init.aos-animate{
         display: flex;
@@ -1372,6 +1371,260 @@ body > footer > p{
         padding-right: 0px !important;
     }
 }
+@media screen and (min-width: 530px) and (max-width: 675px){
+    body > div:nth-child(11) > div > div:nth-child(1) > h6{
+        font-size: 48px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    body > div:nth-child(11) > div > div:nth-child(1) > p{
+        font-size: 28px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    body > footer > p{
+        font-size: 20px;
+    }
+    body > div:nth-child(10) > div > div:nth-child(1) > h5{
+        font-size: 40px;
+    }
+    body > div:nth-child(9) > div:nth-child(3){
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(4){
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(4) > div:nth-child(2) > p{
+        font-size: 20px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(4) > div:nth-child(1) > p{
+        font-size: 20px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(3) > div:nth-child(2) > p{
+        font-size: 20px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(3) > div:nth-child(1) > p{
+        font-size: 20px !important;
+    }
+    body > div:nth-child(9) > h6{
+        font-size: 32px;
+    }
+    #testimonials{
+        font-size: 50px;
+    }
+    body > div.container-fluid.d-flex > div.col-lg-6 > h5{
+        font-size: 28px;
+    }
+    body > div.container-fluid.d-flex > div.col-lg-6 > h6{
+        font-size: 18px;
+    }
+    #doctor-garcia{
+        width: 350px !important;
+        height: 350px !important;
+
+    }
+    #experts{
+        font-size: 32px;
+    }
+    body > div:nth-child(7) > h4{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 530px){
+    body > div:nth-child(11) > div > div:nth-child(1) > h6{
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+    body > div:nth-child(11) > div > div:nth-child(1) > p{
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    body > footer > p{
+        font-size: 14px;
+    }
+    body > div:nth-child(10) > div > div:nth-child(1) > h5{
+        font-size: 30px;
+    }
+    body > div:nth-child(9) > div:nth-child(3){
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(4){
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(4) > div:nth-child(2) > p{
+        font-size: 14px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(4) > div:nth-child(1) > p{
+        font-size: 14px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(3) > div:nth-child(2) > p{
+        font-size: 14px !important;
+    }
+    body > div:nth-child(9) > div:nth-child(3) > div:nth-child(1) > p{
+        font-size: 14px !important;
+    }
+    body > div:nth-child(9) > h6{
+        font-size: 24px;
+    }
+    #testimonials{
+        font-size: 30px;
+    }
+    body > div.container-fluid.d-flex > div.col-lg-6 > h5{
+        font-size: 20px;
+    }
+    body > div.container-fluid.d-flex > div.col-lg-6 > h6{
+        font-size: 14px;
+    }
+    #doctor-garcia{
+        width: 350px !important;
+        height: 350px !important;
+
+    }
+    #experts{
+        font-size: 30px;
+    }
+    body > div:nth-child(7) > h4{
+        font-size: 18px;
+    }
+    #carouselExampleFade > div.carousel-inner > div > img{
+        min-height: 300px;
+        max-height: 300px;
+    }
+    body > div:nth-child(10) > div > div:nth-child(1) > p{
+        margin-bottom: 0px !important;
+        font-size: 20px;
+    }
+    body > div:nth-child(9) > div:nth-child(3) > div:nth-child(1) > img{
+        height: 300px;
+        object-fit: fill;
+    }
+    body > div.container-fluid.d-flex > div.col-lg-6 > div > p{
+        font-size: 14px;
+    }
+    #surgeries > h3{
+        font-size: 26px;
+    }
+    #surgeries > p{
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    #nav-right > div > h1{
+        margin-top: 0px !important;
+        font-size: 28px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    body > div.container.d-flex.justify-content-center > h3{
+        font-size: 18px;
+    }
+    body > div.container.d-flex.justify-content-center > img{
+        width: 45px;
+    }
+    #nav-left > div.titles > h1{
+        font-size: 36px;
+    }
+    #nav-left > div.titles > h2{
+        font-size: 22px;
+    }
+    #nav-left > div.titles > a > img{
+        width: 35px;
+    }
+    #surgeries > div > div:nth-child(1) > h4{
+        font-size: 38px;
+    }
+    #surgeries > div > div:nth-child(1) > h5{
+        font-size: 24px;
+    }
+    #surgeries > div > div:nth-child(1) > p.price-bold{
+        font-size: 38px;
+    }
+    #surgeries > div > div:nth-child(3) > h4{
+        font-size: 38px;
+    }
+    #surgeries > div > div:nth-child(3) > h5{
+        font-size: 24px;
+    }
+    #surgeries > div > div:nth-child(3) > p.price-bold2{
+        font-size: 38px;
+    }
+    body > div:nth-child(6) > h2{
+        font-size: 48px;
+    }
+    body > div:nth-child(6) > h3{
+        font-size: 34px;
+    }
+    body > div:nth-child(11) > div > div:nth-child(1) > h6{
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 500px){
+    #flush-headingOne > button{
+        font-size: 16px;
+    }
+    #flush-headingTwo > button{
+        font-size: 16px;
+    }
+    #flush-headingThree > button{
+        font-size: 16px;
+    }
+    #flush-headingFour > button{
+        font-size: 16px;
+    }
+    #flush-headingFive > button{
+        font-size: 16px;
+    }
+    #nav-right > div > form > div:nth-child(1) > div:nth-child(1){
+        margin-right: 0;
+    }
+    #nav-right > div > form > div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    #nav-right > div > form > div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    #nav-right > div > form > div:nth-child(2) > div:nth-child(1){
+        margin-right: 0;
+    }
+    #nav-right > div > form > div:nth-child(3){
+        margin-right: 0;
+    }
+    #nav-right > div > form > a{
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Video (background) */
 #exampleModalCenter > div > div{
     background: transparent;
