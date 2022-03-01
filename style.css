@@ -173,6 +173,7 @@ body > div.container-fluid > div > div:nth-child(2) > div > a{
     background: #0D0F10;
     border-radius: 50px;
     padding: 8px 25px;
+    border: none;
 }
 
 #nav-right > div > form{
@@ -1569,7 +1570,7 @@ body > footer > p{
         margin-left: 0px;
     }
 }
-@media screen and (min-width: 400px) and (max-width: 500px){
+@media (max-width: 500px){
     #flush-headingOne > button{
         font-size: 16px;
     }
@@ -1608,6 +1609,45 @@ body > footer > p{
     }
     #nav-right > div > form > a{
         margin-right: 0;
+    }
+}
+@media (max-width: 425px){
+    body > div:nth-child(4) > div > div.card.col-lg-3.aos-init.aos-animate > div.profile.d-flex > img{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    body > div:nth-child(4) > div > div.card.col-lg-3.aos-init.aos-animate > div.profile.d-flex{
+        flex-direction: column;
+    }
+    body > div:nth-child(4) > div > div > div.profile.d-flex > div{
+        margin: auto;
+    }
+    #surgeries > h3{
+        font-size: 22px;
+    }
+    #surgeries > p{
+        font-size: 14px;
+    }
+    #carouselExampleFade > div.carousel-inner > div > img{
+        width: 200px;
+        height: 200px;
+        min-height: 300px;
+        max-height: 300px;
+    }
+    body > div:nth-child(7) > div:nth-child(4) > div:nth-child(2) > h5{
+        font-size: 28px;
+    }
+    body > div:nth-child(7) > div:nth-child(4) > div:nth-child(2) > p{
+        font-size: 18px;
+    }
+    body > div:nth-child(7) > div.col-lg-12.d-flex > div:nth-child(2) > h5{
+        font-size: 28px;
+    }
+    body > div:nth-child(7) > div.col-lg-12.d-flex > div:nth-child(2) > h6{
+        font-size: 24px;
+    }
+    #nav-right > div{
+        top: 2% !important;
     }
 }
 
